@@ -9,7 +9,6 @@ function genRandomIndex(max) {
 
 function Header() {
   const description = concepts[genRandomIndex(2)];
-  console.log(reactImage);
   return (
     <header>
       <img src={reactImage} alt="Stylized atom" />
