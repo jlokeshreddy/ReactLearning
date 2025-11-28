@@ -7,7 +7,6 @@ import { CORE_CONCEPTS, EXAMPLES } from "./data";
 function App() {
   const [selectedTopic, setSelectedTopic] = useState();
   function handleClick(selectedButton) {
-    console.log("helooooooo i am from appjsx", selectedButton);
     setSelectedTopic(selectedButton);
   }
   return (
