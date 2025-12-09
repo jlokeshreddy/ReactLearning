@@ -4,14 +4,14 @@ import Section from "./Section";
 
 function CoreConcepts() {
   return (
-    <section id="core-concepts">
-      <h2>Core Concepts</h2>
+    <Section id="core-concepts" title="Core Concepts">
+      {/* <h2>Core Concepts</h2> */}
       <ul>
         {CORE_CONCEPTS.map((concept) => (
           <CoreConcept key={concept.title} {...concept} />
         ))}
       </ul>
-    </section>
+    </Section>
   );
 }
 
